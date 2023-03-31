@@ -45,7 +45,7 @@ prebuilt_intermediates := $(MESA_TOP)/prebuilt-intermediates
 intermediates := $(call local-generated-sources-dir)
 
 LOCAL_C_INCLUDES := \
-	external/zlib \
+	external/zlib-ng \
 	$(MESA_TOP)/src/mesa \
 	$(MESA_TOP)/src/mapi \
 	$(MESA_TOP)/src/gallium/include \
